@@ -1,0 +1,47 @@
+body{
+  font-size: 14px;
+}
+
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+/** section with all of the div elements **/
+section {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 60%;
+}
+
+/** h1 only in nav **/
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/** h3,.example shared atributes **/
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/** h3,.element only in divs **/
+h3 {
+  font-size: 1.3em;
+}
+
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/** last 3 divs **/
+#background-color {
+  background-color: lightblue;
+}
